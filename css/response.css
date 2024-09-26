@@ -224,6 +224,20 @@
 /* team css end*/
 
 
+/* footer css start */
+.payment{
+    display: flex;
+    flex-direction: column;
+}
+.leftFot{
+    padding-bottom: 32px;
+}
+
+.footerBtm {
+    margin-top: 60px;
+  }
+/* footer css end */
+
 
 /* ===================Prima page======================== */
 
@@ -502,6 +516,25 @@
 
 
 
+
+
+/* footer css start */
+.payment{
+    display: flex;
+    flex-direction: column;
+}
+.leftFot{
+    padding-bottom: 32px;
+}
+
+.footerBtm {
+    margin-top: 60px;
+  }
+
+  .abc{
+    width: 100%;
+  }
+/* footer css end */
 
 /* ===================Prima page======================== */
 
@@ -851,7 +884,23 @@
 /* team css end*/
 
 
+/* footer css start */
+.payment{
+    display: flex;
+    flex-direction: column;
+}
+.leftFot{
+    padding-bottom: 32px;
+}
 
+.footerBtm {
+    margin-top: 60px;
+  }
+
+  .abc{
+    width: 100%;
+  }
+/* footer css end */
 
 
 /* ===================Prima page======================== */
@@ -1314,7 +1363,23 @@
 }
 /* team css end */
 
+/* footer css start */
+.payment{
+    display: flex;
+    flex-direction: column;
+}
+.leftFot{
+    padding-bottom: 32px;
+}
 
+.footerBtm {
+    margin-top: 60px;
+  }
+
+  .abc{
+    width: 100%;
+  }
+/* footer css end */
 
 
 
@@ -1777,7 +1842,23 @@
 }
 /* team css end */
 
+/* footer css start */
+.payment{
+    display: flex;
+    flex-direction: column;
+}
+.leftFot{
+    padding-bottom: 32px;
+}
 
+.footerBtm {
+    margin-top: 60px;
+  }
+
+  .abc{
+    width: 100%;
+  }
+/* footer css end */
 
 
 

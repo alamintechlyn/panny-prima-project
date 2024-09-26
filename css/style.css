@@ -587,6 +587,21 @@ height: 345.59px;
 /* Team css end */
 
 
+/* footer css start */
+.leftFot h4{
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+}
+.rightFot img{
+    width: 100%;
+}
+.payment{
+    padding-top: 50px;
+}
+/* footer css end */
+
 
 
 /* ============================Prima page=================================== */
