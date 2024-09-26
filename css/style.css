@@ -4,6 +4,10 @@
 
 
 /* Header css start */
+.head1{
+    margin: auto 0;
+}
+
 #Header{
   background: #9D1562;  
   padding: 9.5px 0;
@@ -17,6 +21,12 @@
     font-weight: 400;
     color: #fff;
     margin-left: 10px;
+}
+.phone a:first-child{
+    margin-left: 0;
+}
+.email a:first-child{
+    margin-left: 0;
 }
 .email a{
     font-family: "Inter", sans-serif;
@@ -85,7 +95,7 @@
 #Banner::after {
     content: "";
     position: absolute;
-    bottom: 0;
+    bottom: -3px;
     left: 0;
     right: 0;
     width: 100%;
@@ -171,7 +181,7 @@
 
 .aboutText h3 span{
    font-family: inkfree;
-    font-size: 26px;
+    font-size: 32px;
     font-weight: 400;
     line-height: 39px;
     text-align: left;
@@ -279,8 +289,14 @@
 }
 
 #Partner{
-    padding: 120px 0;
+   padding: 64px 0 190px 0;
 }
+
+#Comunity{
+    position: relative;
+    background: #9D1562;
+}
+
 /* comunity css end */
 
 /* footer css start */
@@ -314,6 +330,9 @@
     font-weight: 400;
     margin-right: 14px;
     max-width: 197px;
+}
+.input input::placeholder{
+    color: #fff;
 }
 
 .input button{
@@ -427,11 +446,11 @@
 #AboutBanner::after {
     content: "";
     position: absolute;
-    bottom: -0;
+    bottom: -51px;
     left: 0;
     width: 100%;
     height: 25%;
-    background: url('../images/AboutShape.png') no-repeat left top;
+    background: url('../images/BannerAfter.png') no-repeat left top;
     background-size: 100% 100%;
     z-index: 1;
 }
@@ -533,10 +552,10 @@ height: 345.59px;
 
 /* Team css start */
 #Team{
-    padding: 120px 0;
+    padding: 0 0 180px 0;
 }
 .aboutCard{
-    width: 270.07px;
+    max-width: 100%;
     height: 335.51px;
     background: #FFF4FA;
     border-radius: 15px;

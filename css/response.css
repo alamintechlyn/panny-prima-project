@@ -40,6 +40,19 @@
 }
 /* partner csss end */
 
+/* comunity css start */
+#Comunity{
+    position: relative;
+    background: #9D1562;
+}
+#Comunity::after{
+    top: -57px;
+}
+#Comunity::before{
+    bottom: -57px;
+}
+/* comunity css end */
+
  /* footer css start */
  .input input{
     max-width: 155px;
@@ -115,23 +128,38 @@
     /* Header css end */
 
 
+    /* banner css start */
+    #Banner::after {
+        height: 20%;
+    }
+    .banner{
+        padding-top: 163px;
+    }
+    /* banner css end */
+
+
 /* about css start */
 .aboutImg img{
     max-width: 472.45px;
     height: auto;
+    margin: 0 auto;
+    display: block;
 }
 .aboutText {
-    padding-top: 5rem;
+    padding-top: 0;
 }
 .aboutText p{
     max-width: 100%;
+}
+#About {
+    padding-bottom: 48px;
 }
 /* about css end */
 
 
 /* Insepering css start */
 #Insepering{
-    padding: 80px 0;
+    padding: 64px 0 20px 0;
 }
 .col-card{
     padding-bottom: 110px;
@@ -140,7 +168,7 @@
     padding-bottom: 0;
 }
 .card{
-    margin-left: 11rem;
+    margin: 0 auto;
 }
 /* Insepering css end */
 
@@ -156,12 +184,18 @@
 }
 .com{
     padding-bottom: 44px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 /* comnunity css end */
 
 /* partner css start */
 #Partner{
     padding: 80px 0;
+}
+.partNer {
+    padding-top: 32px;
 }
 
 .partNer a img{
@@ -173,7 +207,7 @@
    /* footer css start */
    #footer::after {
     height: 8%;
-    top: -69px;
+    top: -75px;
     }
     .footer2{
         padding-top: 47px;
@@ -216,10 +250,11 @@
 
 /* team css start*/
 #Team{
-    padding: 80px 0;
+    padding: 0 0 80px 0;
 }
 .aboutCard {
-    width: 347.07px;
+    max-width: 347.07px;
+    margin: 0 auto 32px auto;
 }
 /* team css end*/
 
@@ -293,6 +328,18 @@
 }
 /* offer css end */
 
+
+/* comunity css start */
+#Comunity::after{
+    top: -85px;
+    height: 11%;
+
+}
+#Comunity::before{
+    bottom: -72px;
+    height: 13%;
+}
+/* comunity css end */
 
 /* Industry css start */
 #Offer{
@@ -377,26 +424,40 @@
     .banner img{
         width: 384.97px;
         height: 107.62px;  
+        margin-bottom: 0;
     }
     .banner p{
         font-size: 16px;
+        max-width: 392px;
     }
     .button {
         display: flex;
         justify-content: center;
+        margin-top: 24px !important;
     }
     .button button{
         font-size: 16px;
         margin-right: 8px;
+        padding: 12px 16px;
+
     }
     .button button:last-child{
         margin-right: 0px;
     }
     #Banner{
-        height: 650px;
+        height: 510px !important;
     }
     #Banner::after {
         height: 20%;
+    }
+
+    .button .btn2{
+        max-width: 259px;
+        font-size: 16px;
+        padding: 12px 15px;
+    }
+    .banner {
+        padding-top: 80px;
     }
   /* banner css end */
 
@@ -408,7 +469,7 @@
     margin-left: 3rem;
 }
 .aboutText {
-    padding-top: 2rem;
+    padding-top: 0;
 }
 .aboutText p{
     max-width: 100%;
@@ -421,13 +482,25 @@
     padding-bottom: 0;
 }
 #Insepering{
-    padding: 64px 0;
+    padding: 64px 0 20px 0;
 }
 .col-card{
     padding-bottom: 110px;
 }
 .card{
-    margin-left: 5.5rem;
+   margin: 0 auto;
+   height: 292px;
+}
+
+.card img{
+    width: 120px;
+    height: 120px;
+}
+.card h4 {
+    font-size: 26px;
+    line-height: 44px;
+    max-width: 264.58px;
+    margin: 0 auto;
 }
 /* Insepering css end */
 
@@ -438,17 +511,32 @@
     margin-bottom: 10px;
 }
 .com h4{
-    font-size: 25px;
+    font-size: 26px;
     margin: 0;
 }
 .com{
     padding-bottom: 44px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Comunity::after {
+    top: -10px;
+    height: 8%;
+}
+#Comunity::before {
+    top: -53px;
+    height: 7%;
 }
 /* comnunity css end */
 
 /* partner css start */
 #Partner{
-    padding: 64px 0;
+    padding: 64px 0 120px 0;
+}
+.partNer {
+    padding-top: 32px;
 }
 
 .partNer a img{
@@ -460,7 +548,7 @@
 /* footer css start */
 #footer::after {
     height: 8%;
-    top: -69px;
+    top: -74px;
     }
     .footer2{
         padding-top: 47px;
@@ -475,6 +563,13 @@
       }
       .footersocialIcon {
         justify-content: center;
+      }
+      .footer1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+
       }
    /* footer css end */
 
@@ -504,19 +599,27 @@
 
 /* team css start*/
 #Team{
-    padding: 60px 0;
+    padding: 0 0 80px 0;
 }
 .aboutCard {
-    width: 100%;
+    max-width: 347.07px;
+    margin: 0 auto 32px auto;
 }
 .AboutHeading h2{
     font-size: 35px;
 }
+
+#About{
+    padding-bottom: 48px;
+}
 /* team css end*/
 
 
-
-
+/* comunity css start */
+#Comunity{
+    padding: 190px 0 !important; 
+}
+/* comunity css end */
 
 /* footer css start */
 .payment{
@@ -534,6 +637,10 @@
   .abc{
     width: 100%;
   }
+
+  .comHeading{
+    padding-top: 5rem;
+}
 /* footer css end */
 
 /* ===================Prima page======================== */
@@ -617,6 +724,9 @@
     font-size: 35px;
 }
 /* Industry css end */
+
+
+
 
 /* pricing css start */
 .pricingHeading h2{
@@ -710,6 +820,7 @@
     .banner img{
         width: 384.97px;
         height: 107.62px;  
+        margin-bottom: 0px;
     }
     .banner p{
         font-size: 16px;
@@ -722,15 +833,31 @@
     .button button{
         font-size: 16px;
         margin-right: 8px;
+        padding: 10px 10px;
     }
     .button button:last-child{
         margin-right: 0px;
     }
-    #Banner{
-        height: 650px !important;
-    }
+
+
     #Banner::after {
         height: 16%;
+    }
+
+    #Banner{
+        height: 510px !important;
+    }
+
+    .button .btn2{
+        max-width: 259px;
+        font-size: 16px;
+        padding: 10px 10px;
+    }
+    .banner {
+        padding-top: 80px;
+    }
+    .button{
+        margin-top: 24px !important;
     }
 
   /* banner css end */
@@ -765,13 +892,13 @@
     padding-bottom: 0;
 }
 #Insepering{
-    padding: 64px 0;
+    padding: 64px 0 10px 0;
 }
 .col-card{
     padding-bottom: 110px;
 }
 .card{
-    margin-left: 3rem;
+    margin: 0 auto;
 }
 
 
@@ -783,12 +910,22 @@
     line-height: 25.5px;
     max-width: 390px;
 }
-.card h4{
-    font-size: 26px;
-    line-height: 44.2px;
-    max-width: 264px;
+
+.card{
     margin: 0 auto;
-}
+    height: 292px;
+ }
+ 
+ .card img{
+     width: 120px;
+     height: 120px;
+ }
+ .card h4 {
+     font-size: 26px;
+     line-height: 44px;
+     max-width: 264.58px;
+     margin: 0 auto;
+ }
 /* Insepering css end */
 
 
@@ -804,16 +941,26 @@
 }
 .com{
     padding-bottom: 44px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .comHeading h2{
     font-size: 30;
+}
+.comHeading{
+    padding-top: 5rem;
 }
 /* comnunity css end */
 
 
 /* partner css start */
 #Partner{
-    padding: 64px 0;
+    padding: 64px 0 120px 0;
+}
+
+.partNer {
+    padding-top: 32px;
 }
 
 .partNer a img{
@@ -831,19 +978,23 @@
         padding-top: 47px;
     }
 
-    .footersocialIcon {
+    .socialIcon {
         justify-content: center;
       }
-
-      
-      .footersocialIcon a {
-        margin-right: 20px;
-      }    
       .footerCoppy p{
         text-align: center;
         padding-bottom: 18px;
       }
-  
+      .footersocialIcon {
+        justify-content: center;
+      }
+      .footer1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+
+      }
    /* footer css end */
 
 
@@ -851,6 +1002,9 @@
 
 
 /* about css start */
+#About {
+    padding-bottom: 48px;
+}
 .abutLeft{
     padding-top: 0;
 }
@@ -876,7 +1030,8 @@
     padding: 60px 0;
 }
 .aboutCard {
-    width: 100%;
+    max-width: 270px;
+    margin: 0 auto 32px auto;
 }
 .AboutHeading h2{
     font-size: 30px;
@@ -1115,7 +1270,7 @@
     }
      /* banner css start */
      .banner img{
-        width: 250px;
+        width: 333.97px;
         height: auto;  
     }
     .banner p{
@@ -1135,20 +1290,36 @@
 
 
     #Banner{
-        height: 600px !important;
+        height: 497px !important;
     }
     
     #Banner::after {
         height: 16%;
     }
 
-    .banner .btn2{
-        padding: 10px;
-        font-size: 14px;
-    } 
 
     .banner button{
         padding: 10px;
+    }
+
+
+
+    .button .btn2{
+        max-width: 259px;
+        font-size: 16px;
+        padding: 10px 10px;
+    }
+    .banner {
+        padding-top: 80px;
+    }
+    .button{
+        margin-top: 24px !important;
+        display: flex;
+        justify-content: center;
+    }
+
+    .banner img {
+        margin-bottom: 0;
     }
 
   /* banner css end */
@@ -1179,6 +1350,9 @@
             font-size: 18px;
         }
 
+        #About {
+            padding-bottom: 48px;
+        }
         
     /* about css end */
     
@@ -1187,7 +1361,7 @@
     padding-bottom: 0;
 }
 #Insepering{
-    padding: 64px 0;
+    padding: 64px 0 10px 0;
 }
 
 .col-card{
@@ -1209,12 +1383,22 @@
     line-height: 25.5px;
     max-width: 390px;
 }
-.card h4{
-    font-size: 26px;
-    line-height: 44.2px;
-    max-width: 264px;
+
+.card{
     margin: 0 auto;
-}
+    height: 292px;
+ }
+ 
+ .card img{
+     width: 120px;
+     height: 120px;
+ }
+ .card h4 {
+     font-size: 26px;
+     line-height: 44px;
+     max-width: 264.58px;
+     margin: 0 auto;
+ }
 /* Insepering css end */
 
 
@@ -1236,12 +1420,19 @@
 .comHeading h2{
     font-size: 28px;
 }
+.comHeading{
+    padding-top: 5rem;
+}
 /* comnunity css end */
 
 
 /* partner css start */
 #Partner{
-    padding: 64px 0;
+    padding: 55px 0 100px 0;
+}
+
+.partNer {
+    padding-top: 32px;
 }
 
 
@@ -1252,65 +1443,41 @@
 
 /* partner css end */
 
+
 /* footer css start */
 #footer::after {
     height: 8%;
-    top: -69px;
+    top: -75px;
     }
     .footer2{
         padding-top: 47px;
     }
 
-    .footersocialIcon {
+    .socialIcon {
         justify-content: center;
       }
-
-      
-      .footersocialIcon a {
-        margin-right: 17px;
-      }    
       .footerCoppy p{
         text-align: center;
         padding-bottom: 18px;
-        font-size: 14px;
       }
+      .footersocialIcon {
+        justify-content: center;
+      }
+      .footer1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
 
-
-      .footer2 h4{
-        font-size: 20px;
-        padding-bottom: 30px;
       }
-      .footer2 ul li a{
-        font-size: 16px;
-        margin-bottom: 28px;
+      .footer1 p{
+        text-align: center;
       }
-      .footerPhone a{
-        font-size: 16px;
-        margin-left: 10px;
-    }
-    .footerEmail a{
-        font-size: 16px;
-        margin-left: 10px;
-    }
-    .footer1 img{
-        width: 270px;
-        height: auto;
-    }
-
-    .input input{
-        max-width: 100%;
-        margin-bottom: 12px;
-    }
-  
-    .footerBtm {
-        margin-top: 80px;
+      .input{
+        display: flex;
       }
-
-      .footer2 {
-        padding-top: 20px;
-      }
-      .footerPhone {
-        padding-bottom: 28px;
+      .input input{
+        padding:0 0 0 15px;
       }
    /* footer css end */
 
@@ -1323,6 +1490,7 @@
 
 #AboutBanner::after{
     height: 13%;
+    bottom: -3px;
 }
 /* banner css end */
 
@@ -1625,18 +1793,41 @@
 .button button:last-child{
     margin-right: 0px;
 }
-.button button{
-    margin-bottom: 20px;
-}
+
+
+
 
 #Banner{
-    height: 600px !important;
+    height: 487px !important;
 }
 
 #Banner::after {
-    height: 14%;
+    height: 16%;
 }
 
+
+.banner button{
+    padding: 10px;
+}
+
+
+
+.button .btn2{
+    max-width: 259px;
+    font-size: 16px;
+    padding: 10px 10px;
+}
+.banner {
+    padding-top: 80px;
+}
+.button{
+    margin-top: 24px !important;
+    display: flex;
+}
+
+.banner img {
+    margin-bottom: 0;
+}
 
 /* banner css end */
 
@@ -1666,6 +1857,11 @@
     .aboutText h3{
         font-size: 18px;
     }
+    #About {
+        background: #FFE4F3;
+        padding-bottom: 48px;
+    }
+
 /* about css end */
 
 /* Insepering css start */
@@ -1673,7 +1869,7 @@
     padding-bottom: 0;
 }
 #Insepering{
-    padding: 64px 0;
+    padding: 64px 0 10px 0;
 }
 
 .col-card{
@@ -1696,12 +1892,23 @@
     line-height: 25.5px;
     max-width: 390px;
 }
-.card h4{
-    font-size: 26px;
-    line-height: 44.2px;
-    max-width: 264px;
+
+
+.card{
     margin: 0 auto;
-}
+    height: 292px;
+ }
+ 
+ .card img{
+     width: 120px;
+     height: 120px;
+ }
+ .card h4 {
+     font-size: 26px;
+     line-height: 44px;
+     max-width: 264.58px;
+     margin: 0 auto;
+ }
 
 /* Insepering css end */
 
@@ -1724,11 +1931,19 @@
 .comHeading h2{
     font-size: 30px;
 }
+.comHeading{
+    padding-top: 3rem;
+}
+
 /* comnunity css end */
 
 /* partner css start */
 #Partner{
-    padding: 64px 0;
+    padding: 55px 0 100px 0;
+}
+
+.partNer {
+    padding-top: 32px;
 }
 
 .partNer a img{
@@ -1741,60 +1956,39 @@
 /* footer css start */
 #footer::after {
     height: 8%;
-    top: -69px;
+    top: -76px;
     }
     .footer2{
-        padding-top: 25px;
+        padding-top: 47px;
     }
 
-    .footersocialIcon {
+    .socialIcon {
         justify-content: center;
       }
-
-      .footersocialIcon a {
-        margin-right: 17px;
-      }    
       .footerCoppy p{
         text-align: center;
         padding-bottom: 18px;
-        font-size: 14px;
       }
-      .footer2 h4{
-        font-size: 20px;
-        padding-bottom: 30px;
+      .footersocialIcon {
+        justify-content: center;
       }
-      .footer2 ul li a{
-        font-size: 16px;
-        margin-bottom: 24px;
-      }
-      .footerPhone a{
-        font-size: 16px;
-        margin-left: 10px;
-    }
-    .footerEmail a{
-        font-size: 16px;
-        margin-left: 10px;
-    }
-  
-    .footer1 img{
-        width: 270px;
-        height: auto;
-    }
+      .footer1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
 
-    .input input{
+      }
+      .footer1 p{
+        text-align: center;
+      }
+      .input{
         max-width: 100%;
-        margin-bottom: 12px;
-    }
-    .footerBtm {
-        margin-top: 80px;
+        display: flex;
       }
-      .footer2 {
-        padding-top: 20px;
+      .input input{
+        padding:0 0 0 15px;
       }
-      .footerPhone {
-        padding-bottom: 28px;
-      }
-  
    /* footer css end */
 
 
@@ -1804,6 +1998,7 @@
 
 #AboutBanner::after{
     height: 13%;
+    bottom: -3px;
 }
 /* banner css end */
 
@@ -1858,6 +2053,12 @@
   .abc{
     width: 100%;
   }
+  .input input {
+ width: 80%;
+}
+.input button{
+    max-width: 100%;
+}
 /* footer css end */
 
 
